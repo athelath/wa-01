@@ -1,4 +1,4 @@
-###18.6 Commit best practices
+### 18.6 Commit best practices
 
 Ideally, each commit should be minimal but complete:
 
@@ -6,13 +6,13 @@ Minimal: A commit should only contain changes related to a single problem. This 
 
 Complete: A commit should solve the problem that it claims to solve. If you think you’ve fixed a bug, the commit should contain a unit test that confirms you’re right.
 
-##Each commit message should:
+## Each commit message should:
 
 Be concise, yet evocative. At a glance, you should be able to see what a commit does. But there should be enough detail so you can remember (and understand) what was done.
 
 Describe the why, not the what. Since you can always retrieve the diff associated with a commit, the message doesn’t need to say exactly what changed. Instead it should provide a high-level summary that focuses on the reasons for the change.
 
-##If you do this:
+## If you do this:
 
 It’ll be easier to work with others. For example, if two people have changed the same file in the same place, it’ll be easier to resolve conflicts if the commits are small and it’s clear why each change was made.
 
